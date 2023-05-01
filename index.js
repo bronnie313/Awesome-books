@@ -72,3 +72,21 @@ add.addEventListener('click', (e) => {
 })
 
 BookBinding.update()
+
+// implement single page application
+const a = document.querySelectorAll('a')
+const s = document.querySelectorAll('section')
+
+a.forEach(link => {
+    link.addEventListener('click', e => {
+        e.preventDefault()
+        
+        s.forEach(section => {
+            if (section.id === link.getAttribute('href').substring(1)) {
+                section.style.display = 'block'
+            } else {
+                section.style.display = 'none'
+            }
+        })
+    })
+})

@@ -53,3 +53,13 @@ class BookBinding {
 }
 
 const bookBinding = new BookBinding()
+
+// adds a click event listener to the parent container of the remove Btn
+bookList.addEventListener('click', (event) => {
+    if(event.target.classList.contains('removeBtn')) {
+        const index = parseInt(event.target.dataset.index, 10)
+        console.log(event.target)
+        bookBinding.removeBook(index)
+        BookBinding.update()
+    }
+})

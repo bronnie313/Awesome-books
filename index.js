@@ -83,6 +83,8 @@ a.forEach((link) => {
   link.addEventListener('click', (e) => {
     e.preventDefault();
 
+    window.location.hash = link.getAttribute('href');
+
     s.forEach((section) => {
       if (section.id === link.getAttribute('href').substring(1)) {
         section.style.display = 'block';

@@ -104,7 +104,7 @@ A project was built Using
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [See WEB here](https://bronnie313.github.io/books/)
+- [See WEB here](https://bronnie313.github.io/Awesome-books/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

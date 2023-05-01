@@ -63,3 +63,12 @@ bookList.addEventListener('click', (event) => {
         BookBinding.update()
     }
 })
+
+// adds a click event listener to add Btn
+add.addEventListener('click', (e) => {
+    e.preventDefault();
+    bookBinding.add(title, author)
+    BookBinding.update();
+})
+
+BookBinding.update()

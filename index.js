@@ -92,3 +92,5 @@ a.forEach((link) => {
     });
   });
 });
+
+document.querySelector('section').style.display = 'block';

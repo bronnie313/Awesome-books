@@ -93,4 +93,4 @@ a.forEach((link) => {
   });
 });
 
-document.querySelector('section').style.display = 'block';
+document.querySelector('section').style.display = 'block'; 

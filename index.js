@@ -1,4 +1,12 @@
 import Book from './modules/book.js';
+import { DateTime } from './modules/luxon.js';
+
+const displayDate = () => {
+  const date = document.getElementById('date');
+  date.innerHTML = DateTime.now();
+};
+
+displayDate();
 
 const add = document.getElementById('add');
 const title = document.getElementById('title');

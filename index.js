@@ -83,8 +83,6 @@ a.forEach((link) => {
   link.addEventListener('click', (e) => {
     e.preventDefault();
 
-    window.location.hash = link.getAttribute('href');
-
     s.forEach((section) => {
       if (section.id === link.getAttribute('href').substring(1)) {
         section.style.display = 'block';
@@ -97,14 +95,3 @@ a.forEach((link) => {
 
 document.querySelector('section').style.display = 'block';
 
-window.addEventListener('hashchange', () => {
-  const { hash } = window.location;
-
-  s.forEach((section) => {
-    if (`#${section.id}` === hash) {
-      section.style.display = 'block';
-    } else {
-      section.style.display = 'none';
-    }
-  });
-});

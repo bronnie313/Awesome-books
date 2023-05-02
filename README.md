@@ -100,11 +100,11 @@ A project was built Using
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
+<!-- LIVE DEMO 
 
-## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo <a name="live-demo">
 
-- [See WEB here](https://bronnie313.github.io/books/)
+- [See WEB here]() -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
